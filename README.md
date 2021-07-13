@@ -1,4 +1,4 @@
-## Kiosk Print demo
+## SmartKiosk Print demo
 This sample app demonstrates how to configure and print labels on a Link-OS BlueTooth printer using the PrintConnect app.
 When starting the app for the first time, config.txt, label1.zpl, label2.zip and template.zpl will be created into the /sdcard folder.
 To make this sample app to work, the PrintConnect app needs to be installed on your Zebra Device.
