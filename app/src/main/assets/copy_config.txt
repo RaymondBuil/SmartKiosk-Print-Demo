@@ -1,0 +1,36 @@
+-- NTP SERVER CONFIG ---------------------------------------------------------------
+! U1 setvar "ip.ntp.enable" "on"
+! U1 setvar "rtc.timezone" "UTC00UTC-1,M3.5.0/02:00:00,M10.5.0/03:00:00"
+! U1 setvar "ip.ntp.servers" "time.google.com"
+
+-- WIFI CONFIG ---------------------------------------------------------------------
+-- Modify the value of wlan.essid; replace Your-SSID into the correct SSID
+-- Modify the value of wlan.wpa.psk; replace Your-PSK into the correct PreShared Key
+-- If other security settings are needed, modify wlan.security
+------------------------------------------------------------------------------------
+! U1 setvar "wlan.enable" "off"
+! U1 setvar "wlan.operating_mode" "infrastructure"
+! U1 setvar "wlan.user_channel_list" "all"
+
+! U1 setvar "wlan.country_code" "europe"
+! U1 setvar "wlan.international_mode" "off"
+! U1 setvar "wlan.allowed_band" "all"
+
+! U1 setvar "wlan.region_code" "rest of world"
+! U1 setvar "wlan.security" "wpa psk"
+
+! U1 setvar "wlan.essid" "*************"
+! U1 setvar "wlan.wpa.psk" "********"
+
+! U1 setvar "wlan.ip.protocol" "dhcp"
+! U1 setvar "ip.dhcp.enable" "on"
+
+! U1 setvar "wlan.enable" "on"
+
+-- LABEL CONFIG ---------------------------------------------------------------------
+! U1 setvar "ezpl.print_method" "thermal trans"
+! U1 setvar "ezpl.media_type" "gap/notch"
+
+! U1 do "zpl.calibrate" ""
+
+
